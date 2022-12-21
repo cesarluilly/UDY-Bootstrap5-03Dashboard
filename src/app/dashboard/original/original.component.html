@@ -1,10 +1,14 @@
 <div class="container-fluid">
     <div class="row">
-        <aside class="barra-lateral col-auto p-0">
-            <div class="logo">
+        <aside class="barra-lateral col-12 col-sm-auto p-0">
+            <div class="logo borderBlue">
                 <h2 class="py-4 m-0">Dashboard</h2>
             </div>
-            <nav class="menu d-flex justify-content-center flex-wrap">
+            <!-- Aprendisaje: Aqui con d-flex los elementos de bloque 
+            que estan dentro pasan a elementos inline-block, pero con
+            d-sm-block es como sobreescribir el estilo y en lugar de ser
+            inline-block pasan a tipo bloque-->
+            <nav class="menu d-flex d-sm-block justify-content-center flex-wrap">
                  <a href="#">
                     <!-- https://icons.getbootstrap.com/icons/house-door-fill/ -->
                     <i class="bi bi-house-door-fill"></i>
