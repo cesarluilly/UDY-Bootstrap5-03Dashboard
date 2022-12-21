@@ -37,7 +37,31 @@
             </nav>
         </aside>
         <main class="main col">
-            <h1>Hola mundo</h1>
+            <div class="row">
+                <!-- Aprendisaje: El main lo vamos a separar
+                en varios Widgets que es la entrada, estadistica
+                y comentarios y la razon de separalo es porque
+                cada widget va a tener ciertos estilos, es decir
+                ciertos espaciados, etc. -->
+                <div class="columna col-7">
+                    <div class="widget nueva_entrada">
+                        <h3 class="titulo">Nueva Entrada</h3>
+                        <form action="">
+                            <input type="text" placeholder="Titulo de la entrada">
+                            <textarea>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, neque.</textarea>
+                            <div class="d-flex justify-content-end">
+                                <button>
+                                    <i class="bi bi-pencil-fill"></i>
+                                    Enviar
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="columna col-5">
+                    
+                </div>
+            </div>
         </main>
     </div>
 </div>
