@@ -51,6 +51,70 @@
     margin-right: 10px;
 }
 
+/* --- MAIN --- */
+.main {
+    padding-top: 40px;
+}
+
+.main .columna {
+    padding: 0 40px;
+}
+
+.main .titulo {
+    color: #262a34;
+    font-size: 25px;
+    /* Aprendisaje: Normamente el font weight para que aplique,
+    se necesita que el font-family tenga este grosor de letra
+    o que aplique */
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+
+.main .widget {
+    margin-bottom: 40px;
+}
+
+/* -- Widget Nueva Entrada --- */
+.main .nueva_entrada form input[type="text"],
+.main .nueva_entrada form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    box-shadow: 0px 2px 2px 0px, rgba(0, 0, 0, .2);
+}
+
+.main .nueva_entrada form textarea {
+    height: 400px;
+    min-height: 200px;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.main .nueva_entrada button {
+    background: #0275d8;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    display: inline-block;
+    padding: 10px;
+    width: 200px;
+    border-radius: 3px;
+    transition: .3s ease all;
+}
+
+.main .nueva_entrada button:hover {
+    background: #025aa5;
+}
+
+.main .nueva_entrada i {
+    margin-right: 10px;
+}
 /* -- MEDIAQUERIES --- */
 /* Dispositivo xm */
 @media screen and (max-width: 320px) {}
